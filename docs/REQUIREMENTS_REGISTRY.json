@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "CRT-001",
+    "name": "Simple product price",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-002",
+    "name": "Variable product with selected attributes",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-003",
+    "name": "Quantity and cart line removal",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-004",
+    "name": "Virtual/downloadable product",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-005",
+    "name": "Out-of-stock/unavailable product",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-006",
+    "name": "Invalid variation selection",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-007",
+    "name": "Catalog-effective price discrepancy",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-008",
+    "name": "Role/context-safe product access",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-009",
+    "name": "Currency and price decimals",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CRT-010",
+    "name": "Cart state lifecycle restore",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CRT-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-001",
+    "name": "Coupon not found",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-002",
+    "name": "Coupon expired",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-003",
+    "name": "Minimum eligible spend",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-004",
+    "name": "Maximum eligible spend",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-005",
+    "name": "Allowed email restriction",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-006",
+    "name": "Product-specific inclusion",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-007",
+    "name": "Product/category exclusion",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-008",
+    "name": "Sale item exclusion",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-009",
+    "name": "Individual use restriction",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-010",
+    "name": "Coupon usage limit",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-011",
+    "name": "Per-user usage limit",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-011",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-012",
+    "name": "Free shipping coupon conditions",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-012",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-013",
+    "name": "Fixed cart discount allocation",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-013",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-014",
+    "name": "Fixed product coupon allocation",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-014",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-015",
+    "name": "Percentage coupon allocation",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-015",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-016",
+    "name": "Multiple coupon stacking",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-016",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-017",
+    "name": "Third-party coupon rejection unknown source",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-017",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CPN-018",
+    "name": "Coupon failure without usage count mutation",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-CPN-018",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-001",
+    "name": "Shipping zone match",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-002",
+    "name": "Shipping postcode restriction",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-003",
+    "name": "Multiple shipping packages",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-004",
+    "name": "Available shipping rates",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-005",
+    "name": "Selected method validation",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-006",
+    "name": "No available rate",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-007",
+    "name": "Free shipping threshold vs coupons",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-008",
+    "name": "Local pickup behavior",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-009",
+    "name": "Shipping class impact",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SHP-010",
+    "name": "Carrier API unavailable",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-SHP-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-001",
+    "name": "Tax-inclusive price",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-002",
+    "name": "Tax-exclusive price",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-003",
+    "name": "Tax-exempt context",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-004",
+    "name": "Mixed tax classes",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-005",
+    "name": "Compound tax rules",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-006",
+    "name": "Item tax rounding",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-007",
+    "name": "Shipping tax",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-008",
+    "name": "Fee tax",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-009",
+    "name": "Zero percent rate",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TAX-010",
+    "name": "Price decimal precision",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TAX-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-001",
+    "name": "Line subtotal and effective unit price",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-002",
+    "name": "Discount breakdown",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-003",
+    "name": "Fee breakdown",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-004",
+    "name": "Shipping package aggregation",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-005",
+    "name": "Tax total breakdown",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-006",
+    "name": "Grand total reconciliation",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-007",
+    "name": "Direct grand-total override delta",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-008",
+    "name": "Unknown delta explicit marker",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TOT-009",
+    "name": "Partial result status",
+    "tier": "free",
+    "phase": "P1",
+    "status": "planned",
+    "test_id": "TEST-TOT-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-001",
+    "name": "Rule execution evidence tiers",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-002",
+    "name": "Before/after snapshots",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-003",
+    "name": "Stage timing",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-004",
+    "name": "Callback registration non-causality",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-005",
+    "name": "Verified adapter rule ID",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-006",
+    "name": "Observed price delta",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-007",
+    "name": "Inferred source with alternatives",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-008",
+    "name": "Unknown source attribution",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-009",
+    "name": "Trace overflow marker",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-010",
+    "name": "Trace disabled storefront overhead",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-011",
+    "name": "Trace stage filter and export",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-011",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "TRC-012",
+    "name": "Trace isolation and disposal",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-TRC-012",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-001",
+    "name": "Adapter capability registration",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-002",
+    "name": "Version negotiation",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-003",
+    "name": "Absent vendor handling",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-004",
+    "name": "Inactive plugin handling",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-005",
+    "name": "Out-of-range version handling",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-006",
+    "name": "Rule accepted/rejected event",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-007",
+    "name": "Adapter exception containment",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-008",
+    "name": "Adapter event redaction",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-009",
+    "name": "No stable public hook fallback",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-010",
+    "name": "Adapter self-test fixture",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-011",
+    "name": "SDK example plugin",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-011",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "ADP-012",
+    "name": "Adapter coverage status",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-ADP-012",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-001",
+    "name": "Save immutable scenario input",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-002",
+    "name": "Scenario version history",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-003",
+    "name": "Duplicate scenario",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-004",
+    "name": "Rename and tag",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-005",
+    "name": "Archive and delete",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-006",
+    "name": "Permissioned team visibility",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-007",
+    "name": "Missing product invalidation",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-008",
+    "name": "Changed price fingerprint",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-009",
+    "name": "Changed plugin version fingerprint",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-010",
+    "name": "Scenario rerun status",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SCN-011",
+    "name": "Scenario JSON schema migration",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-SCN-011",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-001",
+    "name": "Before/after monetary delta",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-002",
+    "name": "Run comparison currency mismatch",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-003",
+    "name": "Changed quantity/coupon/address warnings",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-004",
+    "name": "Changed product price flags",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-005",
+    "name": "Plugin-version comparison",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-006",
+    "name": "Changed tax/shipping settings",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-007",
+    "name": "Pinned baseline regression",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-008",
+    "name": "Equivalent-input comparison",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CMP-009",
+    "name": "PDF-free redacted report export",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CMP-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "BAT-001",
+    "name": "Batch job safety caps",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-BAT-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "BAT-002",
+    "name": "Cancellation and resume",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-BAT-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "BAT-003",
+    "name": "Retry idempotency",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-BAT-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "BAT-004",
+    "name": "Timeout handling",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-BAT-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "BAT-005",
+    "name": "Partial failed scenario",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-BAT-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "BAT-006",
+    "name": "Baseline selection",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-BAT-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "BAT-007",
+    "name": "Run outcome PASS DIFFERENT PARTIAL ERROR",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-BAT-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CFN-001",
+    "name": "Duplicate-looking fees",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CFN-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CFN-002",
+    "name": "Two pricing engines observed",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CFN-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CFN-003",
+    "name": "Coupon removed after revalidation",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CFN-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CFN-004",
+    "name": "Shipping threshold change",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CFN-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CFN-005",
+    "name": "Tax base adjustment",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CFN-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CFN-006",
+    "name": "Nondeterministic same-input result",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CFN-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "CFN-007",
+    "name": "Unknown causal origin explained",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-CFN-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-001",
+    "name": "JSON diagnostic export",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-002",
+    "name": "CSV diagnostics export",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-003",
+    "name": "Markdown support report",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-004",
+    "name": "PII redaction preview",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-005",
+    "name": "CSV formula injection guard",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-006",
+    "name": "Permission-controlled download",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-007",
+    "name": "Export schema checksum",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "EXP-008",
+    "name": "Export retention and deletion",
+    "tier": "pro",
+    "phase": "P2",
+    "status": "planned",
+    "test_id": "TEST-EXP-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-001",
+    "name": "REST role permission checks",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-002",
+    "name": "Nonce and CSRF protection",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-003",
+    "name": "XSS escaping",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-004",
+    "name": "SQL query injection protection",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-005",
+    "name": "Customer/session isolation",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-006",
+    "name": "No order creation",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-007",
+    "name": "No stock decrement",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-008",
+    "name": "No coupon usage increment",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-009",
+    "name": "No triggered checkout email in safe fixture",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-010",
+    "name": "Trace size/time limits",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-011",
+    "name": "Developer export secrets redaction",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-011",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-012",
+    "name": "Scenario retention and deletion",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-012",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-013",
+    "name": "Multisite explicit compatibility",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-013",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "SEC-014",
+    "name": "Plugin self-activation and downgrade",
+    "tier": "free+pro",
+    "phase": "P3",
+    "status": "planned",
+    "test_id": "TEST-SEC-014",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-001",
+    "name": "Free optimized ZIP",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-001",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-002",
+    "name": "Pro optimized ZIP",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-002",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-003",
+    "name": "Separate composer vendor/autoload",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-003",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-004",
+    "name": "WordPress.org validated readme",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-004",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-005",
+    "name": "README docs generated from verified manifest",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-005",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-006",
+    "name": "WP.org Plugin Check evidence",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-006",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-007",
+    "name": "Woo QIT evidence or verified blocker",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-007",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-008",
+    "name": "Accessible UI screenshots",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-008",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-009",
+    "name": "Playground base bundle",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-009",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-010",
+    "name": "Playground Free bundle",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-010",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-011",
+    "name": "Playground Pro bundle",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-011",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-012",
+    "name": "MySQL integration evidence",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-012",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-013",
+    "name": "HPOS/Blocks honest declaration",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-013",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-014",
+    "name": "License and third-party notices",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-014",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-015",
+    "name": "Reproducible checksums and manifest",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-015",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  },
+  {
+    "id": "REL-016",
+    "name": "Marketplace reviewer instructions",
+    "tier": "free+pro",
+    "phase": "P4",
+    "status": "planned",
+    "test_id": "TEST-REL-016",
+    "claimed_support": "pending",
+    "verified_evidence": null
+  }
+]

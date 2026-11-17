@@ -1,0 +1,4010 @@
+{
+  "schema_version": 1,
+  "project": "wpessential-cart-rules-inspector",
+  "status": "template-not-executed",
+  "tasks": [
+    {
+      "id": "P0-001",
+      "phase": "P0",
+      "title": "Inspect repository; read Master+START_AGENT; preserve git worktree and inventory current code",
+      "tier": "shared",
+      "agent": "A01",
+      "dependencies": [],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-002",
+      "phase": "P0",
+      "title": "Initialize/reconcile .ai persistent state/task graph and START_HERE",
+      "tier": "shared",
+      "agent": "A01",
+      "dependencies": [
+        "P0-001"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-003",
+      "phase": "P0",
+      "title": "Official WooCommerce/WP API research",
+      "tier": "shared",
+      "agent": "A02",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-004",
+      "phase": "P0",
+      "title": "Competitor and adapter coverage research",
+      "tier": "shared",
+      "agent": "A02",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-005",
+      "phase": "P0",
+      "title": "Threat and simulation side effects risk model",
+      "tier": "shared",
+      "agent": "A10",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-006",
+      "phase": "P0",
+      "title": "Domain DTO and evidence model architecture",
+      "tier": "shared",
+      "agent": "A03",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-007",
+      "phase": "P0",
+      "title": "Free/Pro boundaries, versions and namespace architecture",
+      "tier": "shared",
+      "agent": "A03",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-008",
+      "phase": "P0",
+      "title": "Composer scaffolds and reproducible build scripts",
+      "tier": "shared",
+      "agent": "A12",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-009",
+      "phase": "P0",
+      "title": "WooCommerce cart calculation spike with safe fixtures",
+      "tier": "shared",
+      "agent": "A04",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-010",
+      "phase": "P0",
+      "title": "Adapter API proof of concept and public hook verification",
+      "tier": "shared",
+      "agent": "A06",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-011",
+      "phase": "P0",
+      "title": "Database/storage and privacy schema design",
+      "tier": "shared",
+      "agent": "A03",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-012",
+      "phase": "P0",
+      "title": "WordPress native UI component system and 18 screen specs",
+      "tier": "shared",
+      "agent": "A07",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-013",
+      "phase": "P0",
+      "title": "Playground/CI/MySQL testing setup",
+      "tier": "shared",
+      "agent": "A09",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-014",
+      "phase": "P0",
+      "title": "Requirements registry and release test traceability",
+      "tier": "shared",
+      "agent": "A01",
+      "dependencies": [
+        "P0-002"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P0-GATE",
+      "phase": "P0",
+      "title": "Verify P0 exit gate with reproducible architecture/scaffold evidence",
+      "tier": "shared",
+      "agent": "A12",
+      "dependencies": [
+        "P0-001",
+        "P0-002",
+        "P0-003",
+        "P0-004",
+        "P0-005",
+        "P0-006",
+        "P0-007",
+        "P0-008",
+        "P0-009",
+        "P0-010",
+        "P0-011",
+        "P0-012",
+        "P0-013",
+        "P0-014"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-001",
+      "phase": "P1",
+      "title": "Implement UI screen UI-001: Overview with exact fields/actions/states",
+      "tier": "free",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-002",
+      "phase": "P1",
+      "title": "Implement UI screen UI-002: Test Cart Builder with exact fields/actions/states",
+      "tier": "free",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-003",
+      "phase": "P1",
+      "title": "Implement UI screen UI-003: Calculation Results with exact fields/actions/states",
+      "tier": "free",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-004",
+      "phase": "P1",
+      "title": "Implement UI screen UI-004: Coupon Inspector with exact fields/actions/states",
+      "tier": "free",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-005",
+      "phase": "P1",
+      "title": "Implement UI screen UI-005: Shipping Inspector with exact fields/actions/states",
+      "tier": "free",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-006",
+      "phase": "P1",
+      "title": "Implement UI screen UI-006: Tax Inspector with exact fields/actions/states",
+      "tier": "free",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-007",
+      "phase": "P2",
+      "title": "Implement UI screen UI-007: Execution Trace with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-008",
+      "phase": "P2",
+      "title": "Implement UI screen UI-008: Conflict Center with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-009",
+      "phase": "P2",
+      "title": "Implement UI screen UI-009: Saved Scenarios with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-010",
+      "phase": "P2",
+      "title": "Implement UI screen UI-010: Compare Runs with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-011",
+      "phase": "P2",
+      "title": "Implement UI screen UI-011: Batch Regression Runner with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-011"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-012",
+      "phase": "P2",
+      "title": "Implement UI screen UI-012: Integration & Adapter Manager with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-012"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-013",
+      "phase": "P2",
+      "title": "Implement UI screen UI-013: Developer Exports with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-013"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-014",
+      "phase": "P1",
+      "title": "Implement UI screen UI-014: Settings with exact fields/actions/states",
+      "tier": "free+pro",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-014"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-015",
+      "phase": "P1",
+      "title": "Implement UI screen UI-015: Tools & Diagnostics with exact fields/actions/states",
+      "tier": "free+pro",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-015"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-016",
+      "phase": "P1",
+      "title": "Implement UI screen UI-016: Explanation Drawer with exact fields/actions/states",
+      "tier": "free+pro",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-016"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-017",
+      "phase": "P1",
+      "title": "Implement UI screen UI-017: First Run Wizard with exact fields/actions/states",
+      "tier": "free",
+      "agent": "A08",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-017"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-018",
+      "phase": "P2",
+      "title": "Implement UI screen UI-018: Adapter Detail & SDK Diagnostics with exact fields/actions/states",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-018"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-001",
+      "phase": "P1",
+      "title": "Implement and test: Simple product price",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-002",
+      "phase": "P1",
+      "title": "Implement and test: Variable product with selected attributes",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-003",
+      "phase": "P1",
+      "title": "Implement and test: Quantity and cart line removal",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-004",
+      "phase": "P1",
+      "title": "Implement and test: Virtual/downloadable product",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-005",
+      "phase": "P1",
+      "title": "Implement and test: Out-of-stock/unavailable product",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-006",
+      "phase": "P1",
+      "title": "Implement and test: Invalid variation selection",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-007",
+      "phase": "P1",
+      "title": "Implement and test: Catalog-effective price discrepancy",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-008",
+      "phase": "P1",
+      "title": "Implement and test: Role/context-safe product access",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-009",
+      "phase": "P1",
+      "title": "Implement and test: Currency and price decimals",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CRT-010",
+      "phase": "P1",
+      "title": "Implement and test: Cart state lifecycle restore",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CRT-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-001",
+      "phase": "P1",
+      "title": "Implement and test: Coupon not found",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-002",
+      "phase": "P1",
+      "title": "Implement and test: Coupon expired",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-003",
+      "phase": "P1",
+      "title": "Implement and test: Minimum eligible spend",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-004",
+      "phase": "P1",
+      "title": "Implement and test: Maximum eligible spend",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-005",
+      "phase": "P1",
+      "title": "Implement and test: Allowed email restriction",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-006",
+      "phase": "P1",
+      "title": "Implement and test: Product-specific inclusion",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-007",
+      "phase": "P1",
+      "title": "Implement and test: Product/category exclusion",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-008",
+      "phase": "P1",
+      "title": "Implement and test: Sale item exclusion",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-009",
+      "phase": "P1",
+      "title": "Implement and test: Individual use restriction",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-010",
+      "phase": "P1",
+      "title": "Implement and test: Coupon usage limit",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-011",
+      "phase": "P1",
+      "title": "Implement and test: Per-user usage limit",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-011"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-012",
+      "phase": "P1",
+      "title": "Implement and test: Free shipping coupon conditions",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-012"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-013",
+      "phase": "P1",
+      "title": "Implement and test: Fixed cart discount allocation",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-013"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-014",
+      "phase": "P1",
+      "title": "Implement and test: Fixed product coupon allocation",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-014"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-015",
+      "phase": "P1",
+      "title": "Implement and test: Percentage coupon allocation",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-015"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-016",
+      "phase": "P1",
+      "title": "Implement and test: Multiple coupon stacking",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-016"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-017",
+      "phase": "P1",
+      "title": "Implement and test: Third-party coupon rejection unknown source",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-017"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CPN-018",
+      "phase": "P1",
+      "title": "Implement and test: Coupon failure without usage count mutation",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CPN-018"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-001",
+      "phase": "P1",
+      "title": "Implement and test: Shipping zone match",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-002",
+      "phase": "P1",
+      "title": "Implement and test: Shipping postcode restriction",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-003",
+      "phase": "P1",
+      "title": "Implement and test: Multiple shipping packages",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-004",
+      "phase": "P1",
+      "title": "Implement and test: Available shipping rates",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-005",
+      "phase": "P1",
+      "title": "Implement and test: Selected method validation",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-006",
+      "phase": "P1",
+      "title": "Implement and test: No available rate",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-007",
+      "phase": "P1",
+      "title": "Implement and test: Free shipping threshold vs coupons",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-008",
+      "phase": "P1",
+      "title": "Implement and test: Local pickup behavior",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-009",
+      "phase": "P1",
+      "title": "Implement and test: Shipping class impact",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SHP-010",
+      "phase": "P1",
+      "title": "Implement and test: Carrier API unavailable",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SHP-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-001",
+      "phase": "P1",
+      "title": "Implement and test: Tax-inclusive price",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-002",
+      "phase": "P1",
+      "title": "Implement and test: Tax-exclusive price",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-003",
+      "phase": "P1",
+      "title": "Implement and test: Tax-exempt context",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-004",
+      "phase": "P1",
+      "title": "Implement and test: Mixed tax classes",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-005",
+      "phase": "P1",
+      "title": "Implement and test: Compound tax rules",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-006",
+      "phase": "P1",
+      "title": "Implement and test: Item tax rounding",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-007",
+      "phase": "P1",
+      "title": "Implement and test: Shipping tax",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-008",
+      "phase": "P1",
+      "title": "Implement and test: Fee tax",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-009",
+      "phase": "P1",
+      "title": "Implement and test: Zero percent rate",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TAX-010",
+      "phase": "P1",
+      "title": "Implement and test: Price decimal precision",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TAX-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-001",
+      "phase": "P1",
+      "title": "Implement and test: Line subtotal and effective unit price",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-002",
+      "phase": "P1",
+      "title": "Implement and test: Discount breakdown",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-003",
+      "phase": "P1",
+      "title": "Implement and test: Fee breakdown",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-004",
+      "phase": "P1",
+      "title": "Implement and test: Shipping package aggregation",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-005",
+      "phase": "P1",
+      "title": "Implement and test: Tax total breakdown",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-006",
+      "phase": "P1",
+      "title": "Implement and test: Grand total reconciliation",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-007",
+      "phase": "P1",
+      "title": "Implement and test: Direct grand-total override delta",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-008",
+      "phase": "P1",
+      "title": "Implement and test: Unknown delta explicit marker",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TOT-009",
+      "phase": "P1",
+      "title": "Implement and test: Partial result status",
+      "tier": "free",
+      "agent": "A04",
+      "dependencies": [
+        "P0-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TOT-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-001",
+      "phase": "P2",
+      "title": "Implement and test: Rule execution evidence tiers",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-002",
+      "phase": "P2",
+      "title": "Implement and test: Before/after snapshots",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-003",
+      "phase": "P2",
+      "title": "Implement and test: Stage timing",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-004",
+      "phase": "P2",
+      "title": "Implement and test: Callback registration non-causality",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-005",
+      "phase": "P2",
+      "title": "Implement and test: Verified adapter rule ID",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-006",
+      "phase": "P2",
+      "title": "Implement and test: Observed price delta",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-007",
+      "phase": "P2",
+      "title": "Implement and test: Inferred source with alternatives",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-008",
+      "phase": "P2",
+      "title": "Implement and test: Unknown source attribution",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-009",
+      "phase": "P2",
+      "title": "Implement and test: Trace overflow marker",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-010",
+      "phase": "P2",
+      "title": "Implement and test: Trace disabled storefront overhead",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-011",
+      "phase": "P2",
+      "title": "Implement and test: Trace stage filter and export",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-011"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-TRC-012",
+      "phase": "P2",
+      "title": "Implement and test: Trace isolation and disposal",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-TRC-012"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-001",
+      "phase": "P2",
+      "title": "Implement and test: Adapter capability registration",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-002",
+      "phase": "P2",
+      "title": "Implement and test: Version negotiation",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-003",
+      "phase": "P2",
+      "title": "Implement and test: Absent vendor handling",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-004",
+      "phase": "P2",
+      "title": "Implement and test: Inactive plugin handling",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-005",
+      "phase": "P2",
+      "title": "Implement and test: Out-of-range version handling",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-006",
+      "phase": "P2",
+      "title": "Implement and test: Rule accepted/rejected event",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-007",
+      "phase": "P2",
+      "title": "Implement and test: Adapter exception containment",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-008",
+      "phase": "P2",
+      "title": "Implement and test: Adapter event redaction",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-009",
+      "phase": "P2",
+      "title": "Implement and test: No stable public hook fallback",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-010",
+      "phase": "P2",
+      "title": "Implement and test: Adapter self-test fixture",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-011",
+      "phase": "P2",
+      "title": "Implement and test: SDK example plugin",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-011"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-ADP-012",
+      "phase": "P2",
+      "title": "Implement and test: Adapter coverage status",
+      "tier": "pro",
+      "agent": "A06",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-ADP-012"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-001",
+      "phase": "P2",
+      "title": "Implement and test: Save immutable scenario input",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-002",
+      "phase": "P2",
+      "title": "Implement and test: Scenario version history",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-003",
+      "phase": "P2",
+      "title": "Implement and test: Duplicate scenario",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-004",
+      "phase": "P2",
+      "title": "Implement and test: Rename and tag",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-005",
+      "phase": "P2",
+      "title": "Implement and test: Archive and delete",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-006",
+      "phase": "P2",
+      "title": "Implement and test: Permissioned team visibility",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-007",
+      "phase": "P2",
+      "title": "Implement and test: Missing product invalidation",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-008",
+      "phase": "P2",
+      "title": "Implement and test: Changed price fingerprint",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-009",
+      "phase": "P2",
+      "title": "Implement and test: Changed plugin version fingerprint",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-010",
+      "phase": "P2",
+      "title": "Implement and test: Scenario rerun status",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SCN-011",
+      "phase": "P2",
+      "title": "Implement and test: Scenario JSON schema migration",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SCN-011"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-001",
+      "phase": "P2",
+      "title": "Implement and test: Before/after monetary delta",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-002",
+      "phase": "P2",
+      "title": "Implement and test: Run comparison currency mismatch",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-003",
+      "phase": "P2",
+      "title": "Implement and test: Changed quantity/coupon/address warnings",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-004",
+      "phase": "P2",
+      "title": "Implement and test: Changed product price flags",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-005",
+      "phase": "P2",
+      "title": "Implement and test: Plugin-version comparison",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-006",
+      "phase": "P2",
+      "title": "Implement and test: Changed tax/shipping settings",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-007",
+      "phase": "P2",
+      "title": "Implement and test: Pinned baseline regression",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-008",
+      "phase": "P2",
+      "title": "Implement and test: Equivalent-input comparison",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CMP-009",
+      "phase": "P2",
+      "title": "Implement and test: PDF-free redacted report export",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CMP-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-BAT-001",
+      "phase": "P2",
+      "title": "Implement and test: Batch job safety caps",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-BAT-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-BAT-002",
+      "phase": "P2",
+      "title": "Implement and test: Cancellation and resume",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-BAT-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-BAT-003",
+      "phase": "P2",
+      "title": "Implement and test: Retry idempotency",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-BAT-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-BAT-004",
+      "phase": "P2",
+      "title": "Implement and test: Timeout handling",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-BAT-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-BAT-005",
+      "phase": "P2",
+      "title": "Implement and test: Partial failed scenario",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-BAT-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-BAT-006",
+      "phase": "P2",
+      "title": "Implement and test: Baseline selection",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-BAT-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-BAT-007",
+      "phase": "P2",
+      "title": "Implement and test: Run outcome PASS DIFFERENT PARTIAL ERROR",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-BAT-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CFN-001",
+      "phase": "P2",
+      "title": "Implement and test: Duplicate-looking fees",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CFN-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CFN-002",
+      "phase": "P2",
+      "title": "Implement and test: Two pricing engines observed",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CFN-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CFN-003",
+      "phase": "P2",
+      "title": "Implement and test: Coupon removed after revalidation",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CFN-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CFN-004",
+      "phase": "P2",
+      "title": "Implement and test: Shipping threshold change",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CFN-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CFN-005",
+      "phase": "P2",
+      "title": "Implement and test: Tax base adjustment",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CFN-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CFN-006",
+      "phase": "P2",
+      "title": "Implement and test: Nondeterministic same-input result",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CFN-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-CFN-007",
+      "phase": "P2",
+      "title": "Implement and test: Unknown causal origin explained",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-CFN-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-001",
+      "phase": "P2",
+      "title": "Implement and test: JSON diagnostic export",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-002",
+      "phase": "P2",
+      "title": "Implement and test: CSV diagnostics export",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-003",
+      "phase": "P2",
+      "title": "Implement and test: Markdown support report",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-004",
+      "phase": "P2",
+      "title": "Implement and test: PII redaction preview",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-005",
+      "phase": "P2",
+      "title": "Implement and test: CSV formula injection guard",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-006",
+      "phase": "P2",
+      "title": "Implement and test: Permission-controlled download",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-007",
+      "phase": "P2",
+      "title": "Implement and test: Export schema checksum",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-EXP-008",
+      "phase": "P2",
+      "title": "Implement and test: Export retention and deletion",
+      "tier": "pro",
+      "agent": "A05",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-EXP-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-001",
+      "phase": "P3",
+      "title": "Implement and test: REST role permission checks",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-002",
+      "phase": "P3",
+      "title": "Implement and test: Nonce and CSRF protection",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-003",
+      "phase": "P3",
+      "title": "Implement and test: XSS escaping",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-004",
+      "phase": "P3",
+      "title": "Implement and test: SQL query injection protection",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-005",
+      "phase": "P3",
+      "title": "Implement and test: Customer/session isolation",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-006",
+      "phase": "P3",
+      "title": "Implement and test: No order creation",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-007",
+      "phase": "P3",
+      "title": "Implement and test: No stock decrement",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-008",
+      "phase": "P3",
+      "title": "Implement and test: No coupon usage increment",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-009",
+      "phase": "P3",
+      "title": "Implement and test: No triggered checkout email in safe fixture",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-010",
+      "phase": "P3",
+      "title": "Implement and test: Trace size/time limits",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-011",
+      "phase": "P3",
+      "title": "Implement and test: Developer export secrets redaction",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-011"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-012",
+      "phase": "P3",
+      "title": "Implement and test: Scenario retention and deletion",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-012"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-013",
+      "phase": "P3",
+      "title": "Implement and test: Multisite explicit compatibility",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-013"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-SEC-014",
+      "phase": "P3",
+      "title": "Implement and test: Plugin self-activation and downgrade",
+      "tier": "free+pro",
+      "agent": "A10",
+      "dependencies": [
+        "P2-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-SEC-014"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-001",
+      "phase": "P4",
+      "title": "Implement and test: Free optimized ZIP",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-001"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-002",
+      "phase": "P4",
+      "title": "Implement and test: Pro optimized ZIP",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-002"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-003",
+      "phase": "P4",
+      "title": "Implement and test: Separate composer vendor/autoload",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-003"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-004",
+      "phase": "P4",
+      "title": "Implement and test: WordPress.org validated readme",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-004"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-005",
+      "phase": "P4",
+      "title": "Implement and test: README docs generated from verified manifest",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-005"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-006",
+      "phase": "P4",
+      "title": "Implement and test: WP.org Plugin Check evidence",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-006"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-007",
+      "phase": "P4",
+      "title": "Implement and test: Woo QIT evidence or verified blocker",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-007"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-008",
+      "phase": "P4",
+      "title": "Implement and test: Accessible UI screenshots",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-008"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-009",
+      "phase": "P4",
+      "title": "Implement and test: Playground base bundle",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-009"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-010",
+      "phase": "P4",
+      "title": "Implement and test: Playground Free bundle",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-010"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-011",
+      "phase": "P4",
+      "title": "Implement and test: Playground Pro bundle",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-011"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-012",
+      "phase": "P4",
+      "title": "Implement and test: MySQL integration evidence",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-012"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-013",
+      "phase": "P4",
+      "title": "Implement and test: HPOS/Blocks honest declaration",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-013"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-014",
+      "phase": "P4",
+      "title": "Implement and test: License and third-party notices",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-014"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-015",
+      "phase": "P4",
+      "title": "Implement and test: Reproducible checksums and manifest",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-015"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "TASK-REL-016",
+      "phase": "P4",
+      "title": "Implement and test: Marketplace reviewer instructions",
+      "tier": "free+pro",
+      "agent": "A11",
+      "dependencies": [
+        "P3-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-REL-016"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-014-PRO",
+      "phase": "P2",
+      "title": "Complete Pro extensions for Settings",
+      "tier": "free+pro",
+      "agent": "A08",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-014-PRO"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-015-PRO",
+      "phase": "P2",
+      "title": "Complete Pro extensions for Tools & Diagnostics",
+      "tier": "free+pro",
+      "agent": "A08",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-015-PRO"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "UI-016-PRO",
+      "phase": "P2",
+      "title": "Complete Pro extensions for Explanation Drawer",
+      "tier": "free+pro",
+      "agent": "A08",
+      "dependencies": [
+        "P1-GATE"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [
+        "TEST-UI-016-PRO"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P1-GATE",
+      "phase": "P1",
+      "title": "Independently install/test full Free plugin; zero Pro dependency; validate release gate",
+      "tier": "shared",
+      "agent": "A09",
+      "dependencies": [
+        "UI-001",
+        "UI-002",
+        "UI-003",
+        "UI-004",
+        "UI-005",
+        "UI-006",
+        "UI-014",
+        "UI-015",
+        "UI-016",
+        "UI-017",
+        "TASK-CRT-001",
+        "TASK-CRT-002",
+        "TASK-CRT-003",
+        "TASK-CRT-004",
+        "TASK-CRT-005",
+        "TASK-CRT-006",
+        "TASK-CRT-007",
+        "TASK-CRT-008",
+        "TASK-CRT-009",
+        "TASK-CRT-010",
+        "TASK-CPN-001",
+        "TASK-CPN-002",
+        "TASK-CPN-003",
+        "TASK-CPN-004",
+        "TASK-CPN-005",
+        "TASK-CPN-006",
+        "TASK-CPN-007",
+        "TASK-CPN-008",
+        "TASK-CPN-009",
+        "TASK-CPN-010",
+        "TASK-CPN-011",
+        "TASK-CPN-012",
+        "TASK-CPN-013",
+        "TASK-CPN-014",
+        "TASK-CPN-015",
+        "TASK-CPN-016",
+        "TASK-CPN-017",
+        "TASK-CPN-018",
+        "TASK-SHP-001",
+        "TASK-SHP-002",
+        "TASK-SHP-003",
+        "TASK-SHP-004",
+        "TASK-SHP-005",
+        "TASK-SHP-006",
+        "TASK-SHP-007",
+        "TASK-SHP-008",
+        "TASK-SHP-009",
+        "TASK-SHP-010",
+        "TASK-TAX-001",
+        "TASK-TAX-002",
+        "TASK-TAX-003",
+        "TASK-TAX-004",
+        "TASK-TAX-005",
+        "TASK-TAX-006",
+        "TASK-TAX-007",
+        "TASK-TAX-008",
+        "TASK-TAX-009",
+        "TASK-TAX-010",
+        "TASK-TOT-001",
+        "TASK-TOT-002",
+        "TASK-TOT-003",
+        "TASK-TOT-004",
+        "TASK-TOT-005",
+        "TASK-TOT-006",
+        "TASK-TOT-007",
+        "TASK-TOT-008",
+        "TASK-TOT-009"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P2-GATE",
+      "phase": "P2",
+      "title": "Free+Pro installation, adapter evidence truth, all Pro screens, core value verified",
+      "tier": "shared",
+      "agent": "A09",
+      "dependencies": [
+        "UI-007",
+        "UI-008",
+        "UI-009",
+        "UI-010",
+        "UI-011",
+        "UI-012",
+        "UI-013",
+        "UI-018",
+        "TASK-TRC-001",
+        "TASK-TRC-002",
+        "TASK-TRC-003",
+        "TASK-TRC-004",
+        "TASK-TRC-005",
+        "TASK-TRC-006",
+        "TASK-TRC-007",
+        "TASK-TRC-008",
+        "TASK-TRC-009",
+        "TASK-TRC-010",
+        "TASK-TRC-011",
+        "TASK-TRC-012",
+        "TASK-ADP-001",
+        "TASK-ADP-002",
+        "TASK-ADP-003",
+        "TASK-ADP-004",
+        "TASK-ADP-005",
+        "TASK-ADP-006",
+        "TASK-ADP-007",
+        "TASK-ADP-008",
+        "TASK-ADP-009",
+        "TASK-ADP-010",
+        "TASK-ADP-011",
+        "TASK-ADP-012",
+        "TASK-SCN-001",
+        "TASK-SCN-002",
+        "TASK-SCN-003",
+        "TASK-SCN-004",
+        "TASK-SCN-005",
+        "TASK-SCN-006",
+        "TASK-SCN-007",
+        "TASK-SCN-008",
+        "TASK-SCN-009",
+        "TASK-SCN-010",
+        "TASK-SCN-011",
+        "TASK-CMP-001",
+        "TASK-CMP-002",
+        "TASK-CMP-003",
+        "TASK-CMP-004",
+        "TASK-CMP-005",
+        "TASK-CMP-006",
+        "TASK-CMP-007",
+        "TASK-CMP-008",
+        "TASK-CMP-009",
+        "TASK-BAT-001",
+        "TASK-BAT-002",
+        "TASK-BAT-003",
+        "TASK-BAT-004",
+        "TASK-BAT-005",
+        "TASK-BAT-006",
+        "TASK-BAT-007",
+        "TASK-CFN-001",
+        "TASK-CFN-002",
+        "TASK-CFN-003",
+        "TASK-CFN-004",
+        "TASK-CFN-005",
+        "TASK-CFN-006",
+        "TASK-CFN-007",
+        "TASK-EXP-001",
+        "TASK-EXP-002",
+        "TASK-EXP-003",
+        "TASK-EXP-004",
+        "TASK-EXP-005",
+        "TASK-EXP-006",
+        "TASK-EXP-007",
+        "TASK-EXP-008",
+        "UI-014-PRO",
+        "UI-015-PRO",
+        "UI-016-PRO"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P3-GATE",
+      "phase": "P3",
+      "title": "QA and security gate: all critical tests and safety invariants verified",
+      "tier": "shared",
+      "agent": "A12",
+      "dependencies": [
+        "TASK-SEC-001",
+        "TASK-SEC-002",
+        "TASK-SEC-003",
+        "TASK-SEC-004",
+        "TASK-SEC-005",
+        "TASK-SEC-006",
+        "TASK-SEC-007",
+        "TASK-SEC-008",
+        "TASK-SEC-009",
+        "TASK-SEC-010",
+        "TASK-SEC-011",
+        "TASK-SEC-012",
+        "TASK-SEC-013",
+        "TASK-SEC-014"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    },
+    {
+      "id": "P4-GATE",
+      "phase": "P4",
+      "title": "Verify and archive all release artifacts, checksums and marketplace evidence",
+      "tier": "shared",
+      "agent": "A12",
+      "dependencies": [
+        "TASK-REL-001",
+        "TASK-REL-002",
+        "TASK-REL-003",
+        "TASK-REL-004",
+        "TASK-REL-005",
+        "TASK-REL-006",
+        "TASK-REL-007",
+        "TASK-REL-008",
+        "TASK-REL-009",
+        "TASK-REL-010",
+        "TASK-REL-011",
+        "TASK-REL-012",
+        "TASK-REL-013",
+        "TASK-REL-014",
+        "TASK-REL-015",
+        "TASK-REL-016"
+      ],
+      "acceptance": "Working source/docs exist; targeted tests assert behavior; actual evidence recorded; memory updated",
+      "test_ids": [],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "completed_at": null,
+      "verified_commit": null,
+      "evidence": []
+    }
+  ]
+}

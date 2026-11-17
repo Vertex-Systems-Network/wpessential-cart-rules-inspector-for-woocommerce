@@ -1,0 +1,101 @@
+{
+  "release_approved": false,
+  "release_version": "",
+  "requires_wp": "",
+  "tested_wp": "",
+  "requires_php": "",
+  "requires_woocommerce": "",
+  "tested_woocommerce": "",
+  "verified_commit": "",
+  "evidence_archive": "",
+  "license": "GPLv2 or later",
+  "license_uri": "https://www.gnu.org/licenses/gpl-2.0.html",
+  "wporg_contributors": [],
+  "tags": [
+    "woocommerce",
+    "cart",
+    "coupons",
+    "diagnostics",
+    "tax"
+  ],
+  "features": [
+    {
+      "id": "CRT-001",
+      "tier": "free",
+      "name": "Test simple product cart calculation",
+      "status": "planned",
+      "verified_test_id": null
+    },
+    {
+      "id": "CPN-003",
+      "tier": "free",
+      "name": "Core coupon minimum spend diagnosis",
+      "status": "planned",
+      "verified_test_id": null
+    },
+    {
+      "id": "TOT-001",
+      "tier": "free",
+      "name": "Actual total breakdown",
+      "status": "planned",
+      "verified_test_id": null
+    },
+    {
+      "id": "TRC-005",
+      "tier": "pro",
+      "name": "Evidence-based rule trace",
+      "status": "planned",
+      "verified_test_id": null
+    },
+    {
+      "id": "SCN-001",
+      "tier": "pro",
+      "name": "Saved cart scenario",
+      "status": "planned",
+      "verified_test_id": null
+    },
+    {
+      "id": "CMP-001",
+      "tier": "pro",
+      "name": "Run A/B comparison",
+      "status": "planned",
+      "verified_test_id": null
+    }
+  ],
+  "changelog": [],
+  "free": {
+    "name": "WPEssential Cart Rules Inspector for WooCommerce",
+    "slug": "wpessential-cart-rules-inspector",
+    "short_description": "Inspect WooCommerce test carts, coupon eligibility, shipping, tax, and final total calculations.",
+    "description": "Build safe diagnostic carts and inspect observable WooCommerce calculations. Actual feature listing must be verified before release.",
+    "installation": [
+      "Install and activate WooCommerce.",
+      "Upload and activate the WPEssential Cart Rules Inspector Free plugin.",
+      "Open WooCommerce > Cart Rules Inspector and run a test."
+    ],
+    "faq": [
+      {
+        "question": "Does it monitor customer checkouts?",
+        "answer": "No. It is an admin-side diagnostic tool and does not continuously record customer checkout traffic."
+      }
+    ]
+  },
+  "pro": {
+    "name": "WPEssential Cart Rules Inspector Pro for WooCommerce",
+    "slug": "wpessential-cart-rules-inspector-pro",
+    "short_description": "Extend the Free cart inspector with trace evidence, saved scenarios, comparisons, and diagnostics.",
+    "description": "Pro extends Free with supported evidence-based traces, saved scenarios and developer exports. Verify support and feature tests before release.",
+    "installation": [
+      "Install and activate WooCommerce.",
+      "Install and activate the separate Free plugin.",
+      "Upload and activate the Pro extension.",
+      "Verify supported adapter status before relying on rule-level attribution."
+    ],
+    "faq": [
+      {
+        "question": "Will every third-party pricing rule be identified?",
+        "answer": "No. Exact rule attribution requires tested adapters; unsupported sources are explicitly marked unknown or observed-only."
+      }
+    ]
+  }
+}

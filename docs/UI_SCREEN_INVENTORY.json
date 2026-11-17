@@ -1,0 +1,146 @@
+[
+  {
+    "id": "UI-001",
+    "name": "Overview",
+    "tier": "free",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-001.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-002",
+    "name": "Test Cart Builder",
+    "tier": "free",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-002.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-003",
+    "name": "Calculation Results",
+    "tier": "free",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-003.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-004",
+    "name": "Coupon Inspector",
+    "tier": "free",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-004.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-005",
+    "name": "Shipping Inspector",
+    "tier": "free",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-005.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-006",
+    "name": "Tax Inspector",
+    "tier": "free",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-006.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-007",
+    "name": "Execution Trace",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-007.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-008",
+    "name": "Conflict Center",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-008.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-009",
+    "name": "Saved Scenarios",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-009.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-010",
+    "name": "Compare Runs",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-010.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-011",
+    "name": "Batch Regression Runner",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-011.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-012",
+    "name": "Integration & Adapter Manager",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-012.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-013",
+    "name": "Developer Exports",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-013.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-014",
+    "name": "Settings",
+    "tier": "free+pro",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-014.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-015",
+    "name": "Tools & Diagnostics",
+    "tier": "free+pro",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-015.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-016",
+    "name": "Explanation Drawer",
+    "tier": "free+pro",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-016.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-017",
+    "name": "First Run Wizard",
+    "tier": "free",
+    "first_phase": "P1",
+    "design_spec": "docs/UI/UI-017.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  },
+  {
+    "id": "UI-018",
+    "name": "Adapter Detail & SDK Diagnostics",
+    "tier": "pro",
+    "first_phase": "P2",
+    "design_spec": "docs/UI/UI-018.md",
+    "acceptance": "all exact fields/actions/states + E2E evidence defined in master section 6"
+  }
+]

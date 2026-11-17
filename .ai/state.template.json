@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "product": "WPEssential Cart Rules Inspector for WooCommerce",
+  "status": "not-started-template",
+  "current_phase": "P0",
+  "active_task": null,
+  "next_task": "P0-001",
+  "last_verified_commit": null,
+  "last_test_run": null,
+  "last_updated_utc": null,
+  "task_count": 193,
+  "completed_task_count": 0,
+  "blocked_task_count": 0,
+  "release_gates": {
+    "P0": "pending",
+    "P1": "pending",
+    "P2": "pending",
+    "P3": "pending",
+    "P4": "pending"
+  },
+  "runner": "not-active",
+  "notes": "Copy to .ai/state.json only if missing. Do not overwrite real state. Template is not execution evidence."
+}

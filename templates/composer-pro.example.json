@@ -1,0 +1,18 @@
+{
+  "name": "wpessential/wpessential-cart-rules-inspector-pro",
+  "description": "Starter Composer package contract only. Implement in actual plugin directory.",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPEssential\\CartRulesInspectorPro\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
